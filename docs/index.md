@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Hacknet Extension 教程
-      link: /markdown-examples
+      link: /extension-tutorial
     - theme: alt
       text: 参考
       link: /api-examples
