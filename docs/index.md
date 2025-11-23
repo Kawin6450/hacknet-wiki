@@ -11,7 +11,7 @@ hero:
       link: /extension-tutorial
     - theme: alt
       text: 参考
-      link: /api-examples
+      link: /reference
     - theme: alt
       text: 常见问题
       link: /hnfaq
