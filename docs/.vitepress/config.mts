@@ -15,8 +15,14 @@ export default defineConfig({
       {
         text: "关于",
         items: [
-          { text: "行为准则", link: "/code_of_conduct" },
-          { text: "贡献指南", link: "/contributing" },
+          {
+            text: "行为准则",
+            link: "https://github.com/UnHacknet/hacknet-wiki/blob/master/code_of_conduct.md",
+          },
+          {
+            text: "贡献指南",
+            link: "https://github.com/UnHacknet/hacknet-wiki/blob/master/contributing.md",
+          },
         ],
       },
     ],
