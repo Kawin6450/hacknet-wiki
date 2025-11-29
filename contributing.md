@@ -40,7 +40,7 @@ Hacknet.wiki 基于 vitepress，具备很多开箱即用功能，被认为是已
 - 尽可能言简易懂、解释清楚
 - 尽可能减少错误
 - 最好提供对应内容的参考来源（本站链接、OpenHacknet对应源码链接、官方教程链接、hnxml链接等）
-- 使用合法的 Markdown 语法与 vitepress 内置的 [Markdown 扩展](https://vitepress.dev/zh/guide/markdown)。格式不作要求，只要不要太离谱就行。
+- 使用合法的 Markdown 语法与 VitePress 内置的 [Markdown 扩展](https://vitepress.dev/zh/guide/markdown)。格式不作要求，只要不要太离谱就行。
 - 除了自动生成的文件，保持其他文件末尾空一行。
 
 ## Pull Request 指南
