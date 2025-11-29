@@ -7,6 +7,13 @@ Hacknet.wiki 坚持 **内容优先** 与 **社区驱动** 的核心理念，致�
 - [Hacknet.wiki 项目目标](#hacknetwiki-项目目标)
 - [行为准则](./code_of_conduct.md)
 - [Pull Request 指南](#pull-request-指南)
+- [早期开发阶段须知](#早期开发阶段须知)
+
+## 早期开发阶段须知
+
+目前 Hacknet.wiki 处于早期阶段，还没有完全准备好。因此需要注意一下内容：
+
+- 暂时不要给 Extension Tutorial 贡献
 
 ## Hacknet.wiki 项目目标
 
