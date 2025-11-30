@@ -29,6 +29,12 @@ export default defineConfig({
 
     sidebar: {
       "/hnfaq": [],
+      "/extension-tutorial": [
+        {
+          text: "Extension 教程",
+          items: [{ text: "开始", link: "/extension-tutorial" }],
+        },
+      ],
     },
 
     socialLinks: [
