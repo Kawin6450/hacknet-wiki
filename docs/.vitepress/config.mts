@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Hacknet.wiki",
   description: "Hacknet (Extension) 文档中心",
   lang: "zh-CN",
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
