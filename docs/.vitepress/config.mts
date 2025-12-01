@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import { transformerNotationMap } from "@shikijs/transformers";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -53,5 +54,17 @@ export default defineConfig({
         "https://github.com/UnHacknet/hacknet-wiki/blob/master/main/docs/:path",
       text: "在 GitHub 上查看此页",
     },
+  },
+
+  markdown: {
+    codeTransformers: [
+      // 通过变更diff高亮标记来让vitepress的xml代码片段支持diff高亮
+      // 参考：https://juejin.cn/post/7475597817010503692
+      transformerNotationMap({
+        classMap: { add: "diff add", del: "diff remove" },
+        classActivePre: "has-diff",
+        matchAlgorithm: "v3",
+      }),
+    ],
   },
 });
