@@ -29,9 +29,9 @@ $ mv EDIT_ME_ExtensionInfo.xml ExtensionInfo.xml
 ```xml
 <ExtensionInfo>
   <!-- Max name length is 128 characters -->
-  <Name>Blank Extension</Name> // [!code --]
-  <Name>MyFirstExtension</Name> // [!code ++]
-  <Language>zh-cn</Language> // [!code ++]
+  <Name>Blank Extension</Name> <!-- [!code del] -->
+  <Name>MyFirstExtension</Name> <!-- [!code add] -->
+  <Language>zh-cn</Language> <!-- [!code add] -->
   
   ...
 </ExtensionInfo>
@@ -68,8 +68,8 @@ Faction introfacnot found for setFaction action!
   
   <Instantly>
     <AddAsset FileName="RTSPCrack.exe" FileContents="#RTSP_EXE#" TargetComp="playerComp" TargetFolderpath="bin" />
-    <RunFunction FunctionName="setFaction:introfac" FunctionValue="0" /> // [!code --]
-    <RunFunction FunctionName="setFaction:startingfac" FunctionValue="0" /> // [!code ++]
+    <RunFunction FunctionName="setFaction:introfac" FunctionValue="0" /> <!-- [!code del] -->
+    <RunFunction FunctionName="setFaction:startingfac" FunctionValue="0" /> <!-- [!code add] -->
     
   </Instantly>
 
