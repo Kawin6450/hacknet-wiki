@@ -6,7 +6,7 @@ outline: deep
 在开发 Hacknet Extension 之前，你需要做一些准备以下内容来提高你的扩展开发效率。
 
 - 最新版 Hacknet 与可以运行它的电脑。
-- 安装一个文本编辑器。推荐使用 [Visual Studio Code](https://code.visualstudio.com/)，
+- 一个文本编辑器。推荐使用 [Visual Studio Code](https://code.visualstudio.com/)，
 因为它不仅支持 XML 语法高亮，
 还可以使用 [Hacknet-VSCode](https://github.com/AutumnRivers/hacknet-vscode) 的片段补全，以及使用 [HacknetExtensionEditor](https://github.com/fengxu-30338/HacknetExtensionEditor) 来提高效率。
 
@@ -16,16 +16,19 @@ outline: deep
 
 `BlankExtension` 是游戏自带的扩展结构模板，我们可以通过复制 `BlankExtension` 来创建一个新的 Extension 项目。
 
-复制一份 `游戏根目录/Extensions/BlankExtension/` 并改名，将里面的 `EDIT_ME_ExtensionInfo.xml` 改为 `ExtensionInfo.xml`。后面内容以 `MyFirstExtension` 为例。
+首先找到 Hacknet 游戏的根目录。如果你不清楚怎么找到它，可以查看 [Q: 如何找到 Hacknet 游戏的根目录？](../hnfaq.md#q-how-to-find-hacknet-root)。此处用 `Hacknet/` 举例。
 
-```bash
-# 注：这只是 bash 命令的示例，你可以使用你习惯的电脑操作逻辑来创建项目。
-$ cp -r "游戏根目录/Extensions/BlankExtension/" "游戏根目录/Extensions/MyFirstExtension/"
-$ cd "游戏根目录/Extensions/MyFirstExtension/"
-$ mv EDIT_ME_ExtensionInfo.xml ExtensionInfo.xml
+复制一份 `Hacknet/BlankExtension/` 并改名，将副本里面的 `EDIT_ME_ExtensionInfo.xml` 改为 `ExtensionInfo.xml`。后面内容以 `MyFirstExtension` 为例。
+
+```cmd
+; 注：这只是 bash 命令的示例，你可以使用你习惯的电脑操作逻辑来创建项目。
+cd Hacknet\Extensions\
+cp -r BlankExtension MyFirstExtension
+cd MyFirstExtension
+rename EDIT_ME_ExtensionInfo.xml ExtensionInfo.xml
 ```
 
-编辑 `ExtensionInfo.xml`，修改 `Name` 元素的内容；然后添加 `Language` 元素，内容为 `zh-cn`。这里以 `MyFirstExtension` 为例。
+使用 vscode 打开 `Hacknet/MyFirstExtension/` 目录。编辑 `ExtensionInfo.xml`，修改 `Name` 元素的内容；然后添加 `Language` 元素，内容为 `zh-cn`。这里以 `MyFirstExtension` 为例。
 
 ```xml
 <ExtensionInfo>
@@ -33,6 +36,7 @@ $ mv EDIT_ME_ExtensionInfo.xml ExtensionInfo.xml
   <Name>Blank Extension</Name> <!-- [!code del] -->
   <Name>MyFirstExtension</Name> <!-- [!code add] -->
   <Language>zh-cn</Language> <!-- [!code add] -->
+  <AllowSaves>true</AllowSaves>
   
   ...
 </ExtensionInfo>
@@ -91,3 +95,9 @@ O Errors Found
 
 > [!NOTE]
 > Verfication Tests 是确保扩展正常运行的重要工具。时不时运行 `Run Verfication Tests` 可以及时知道扩展是否有错误。在扩展开发中，你可能会遇到各种各样的错误，此时不要惊慌，如果有错误提示，请根据它来尝试解决。
+
+## 完成
+
+到这里，你已经完成了扩展的准备工作。接下来，你可以在 `MyFirstExtension` 目录下开始编写自己的扩展内容了。
+
+<!--@include: ./parts/pathRule.md-->
