@@ -5,17 +5,17 @@
 `IntroExtension` 是游戏自带的介绍 Extension，它拥有一个完整的项目结构。访问 `Hacknet/Extensions/IntroExtension` 目录，你可以看到：
 
 ```
-IntroExtension
-├── Actions
-├── Docs
-├── Factions
-├── HackerScripts
-├── Missions
-├── Music
-├── Nodes
-├── People
-├── Themes
-├── Web
+IntroExtension/
+├── Actions/
+├── Docs/
+├── Factions/
+├── HackerScripts/
+├── Missions/
+├── Music/
+├── Nodes/
+├── People/
+├── Themes/
+├── Web/
 ├── Logo.png
 ├── WorkshopLogo.png
 ├── Intro.txt
