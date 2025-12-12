@@ -1,7 +1,7 @@
 # Hacknet Extension 教程
 
 > [!WARNING]
-> 本教程目前处于开发早期阶段，尚未正式发布。如需要相对完整的教程，请暂时访问 [Hacknet-Extension-Tutorial](https://github.com/FBIKdot/Hacknet-Extension-Tutorial)
+> 本教程目前处于开发早期阶段，尚未正式发布。如需要相对完整的教程，请暂时访问 [Hacknet-Extension-Tutorial](https://github.com/FBIKdot/Hacknet-Extension-Tutorial) 或 [Old.Hacknet.wiki](https://old.hacknet.wiki)
 
 Hacknet Extension 是 Hacknet 的玩家扩展内容，主要由媒体文件和特定格式的文本（以 XML 为主）组成。
 
@@ -12,7 +12,7 @@ Hacknet Extension 是 Hacknet 的玩家扩展内容，主要由媒体文件和�
 ## 参考资源
 
 社区资源：
-- [Hacknet-Extension-Tutorial](https://github.com/FBIKdot/Hacknet-Extension-Tutorial)
+- [Hacknet-Extension-Tutorial](https://github.com/FBIKdot/Hacknet-Extension-Tutorial) / [Old.Hacknet.wiki](https://old.hacknet.wiki)
 - Hacknet 扩展制作指南 – 入门》 by Pitiedwzr & Err0r233
 - 《Hacknet 主机编辑指南》 by Cyl18
 
